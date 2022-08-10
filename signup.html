@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup/login</title>
+</head>
+<style>
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/login.jpg');
+    }
+
+    .left {
+        display: inline-block;
+
+        position: absolute;
+        left: 60px;
+        top: 20px;
+    }
+
+    .left img {
+        margin-left: 22px;
+        width: 100px;
+        
+    }
+
+    .left div {
+        margin: 0px;
+        line-height: 0px;
+        font-size: 26px;
+        
+    }
+
+    .right {
+        position: absolute;
+        right: 60px;
+        top: 55px;
+        display: inline-block;
+
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(31, 30, 30);
+
+}
+.container {
+        border: 2px solid white;
+        margin: 50px auto;
+        padding: 0px 11px;
+        width: 35%;
+        border-radius: 20px;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;  
+        width: 90%;
+        padding: 1px;
+        border: 2px solid black;
+       
+        font-size: 25px;
+        border-radius: 8px;
+    }
+
+    .container h1 {
+        margin: 0px;
+        font-size: 50px;
+        text-align: center;
+    }
+
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+
+    .foot {
+        color: #fffdfd;
+        margin: auto;
+        text-align: center;
+
+        background-color: rgb(34, 33, 33);
+    }
+</style>
+<body>
+    <header class="header">
+
+        <div class="left">
+            <div>
+                <a href="index.html">
+          <img src="img/logo.png" alt=""></a></div>
+            <div> Surya Fitness </div>
+        </div>
+
+        <div class="right">
+            <button class="btn"> login </button>
+        </div>
+    </header>
+
+
+    <div class="container">
+        <h1>Create a new account</h1>
+        <form action="noaction.php">
+            <label for="name"> Enter your Full Name</label>
+            <div class="form-group">
+                <input type="text" name="myName" id="name">
+            </div>
+            <label for="number">Enter your Number</label>
+            <div class="form-group">
+                <input type="number" name=number">
+            </div>
+            <label for="myemail">Enter your Email</label>
+            <div class="form-group">
+                <input type="email" name="myemail">
+            </div>
+            <label for="password"> Enter your passsword</label>
+            <div class="form-group">
+                <input type="password" name="password">
+            </div>
+
+
+            <div>
+                Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+                Other <input type="radio" name="myGender">
+            </div>
+<div>
+    <input type="checkbox" name="agree">Do you agree the terms and conditions?
+</div>
+
+            <button class="btn">create</button>
+    </div>
+    <footer class="foot">
+        All Rights Reserved © 2019 @ Surya Fitness
+    </footer>
+</body>
+</html> 

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+</head>
+<style>
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background-image: url("img/ctus.jpg");
+    }
+
+    .left {
+        display: inline-block;
+
+        position: absolute;
+        left: 60px;
+        top: 20px;
+    }
+
+    .left img {
+        margin-left: 22px;
+        width: 100px;
+        filter: invert(100%);
+        cursor: pointer;
+    }
+
+    .left div {
+        margin: 0px;
+        line-height: 0px;
+        font-size: 26px;
+        
+    }
+
+    .mid {
+        display: block;
+        width: 50%;
+        margin: 60px auto;
+    }
+
+    .right {
+        position: absolute;
+        right: 60px;
+        top: 55px;
+        display: inline-block;
+
+    }
+
+    .navbar {
+        display: inline;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        font-size: 23px;
+        color: white;
+        text-decoration: none;
+        padding: 34px 20px;
+
+    }
+
+    .navbar li a:hover {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(59, 58, 58);
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 100px 20px;
+        padding: 0px 11px;
+        width: 35%;
+        border-radius: 20px;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 100%;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+
+    .container h1 {
+        margin: 0px;
+        font-size: 50px;
+        text-align: center;
+    }
+
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+
+    .foot {
+        color: #fffdfd;
+        margin: auto;
+        text-align: center;
+
+        background-color: rgb(34, 33, 33);
+    }
+</style>
+
+<body>
+
+    <body>
+        <header class="header">
+
+            <div class="left">
+                <div>
+                    <a href="index.html">
+              <img src="img/logo.png" alt=""></a></div>
+                <div><strong a href="index.html">Surya Fitness</a></div>
+            </div>
+
+            <div class="mid">
+                <ul class="navbar">
+                    <li><a href="">Business</a></li>
+                    <li><a href="">Job</a></li>
+                    <li><a href="">Counselling</a></li>
+                </ul>
+            </div>
+
+
+            <div class="right">
+                <a href="signup.html"><button class="btn">signup/login</button></a>
+            </div>
+        </header>
+
+        <div class="container">
+            <h1>Contact Us</h1>
+            <form action="noaction.php">
+                <label for="name"> Name</label>
+                <div class="form-group">
+                    <input type="text" name="myName" id="name">
+                </div>
+                <label for="address">Address</label>
+                <div class="form-group">
+                    <input type="text" name=address">
+                </div>
+                <label for="myemail">Email</label>
+                <div class="form-group">
+                    <input type="email" name="myemail">
+                </div>
+                <label for="Age"> Enter your Age</label>
+                <div class="form-group">
+                    <input type="number" name="Age">
+                </div>
+
+
+                <div>
+                    Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+                    Other <input type="radio" name="myGender">
+                </div>
+
+                <div class="form-group">
+                    Write in brief: <br><textarea name="myText" cols="30" rows="10"></textarea>
+                </div>
+
+                <button class="btn">Submit</button>
+        </div>
+        <footer class="foot">
+            All Rights Reserved © 2019 @ Surya Fitness
+        </footer>
+    </body>
+
+</html>
+</body>
+
+</html>
